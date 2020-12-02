@@ -9,8 +9,6 @@ mongoose.connect('mongodb://localhost:27017/sample',
 )
 const app = express();
 
-
-
 app.listen(3000,() => {
     console.log('server is running oin port 3000');
-})
+});
